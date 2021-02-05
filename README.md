@@ -5,14 +5,16 @@ Extends TextMeshPro by adding in text animations. This package works by accessin
 
 On the TMP_Testing component in the Inspector, modify the sentence that you'd like displayed. Standard text and supported TextMeshPro tags are supported. You may also enter custom commands using the following template:
 
-"<command : a0, f0x, f0y, a1, f1x, f1y> text <\/command>"
+<i><command : a0, f0x, f0y, a1, f1x, f1y> text <\/command><\i>
 
 where,
-- command = the command tag itself. Two commands are currently supported -> "wave" and "jitter"
-- :       = the separator between the command tag and parameter fields
-- a0      = the amplitude applied to the updated function evaluation
-- f0x     = the frequency applied to the x-component of the updated function evaluation
-- f0y     = the frequency applied to the y-component of the updated function evaluation
-- a1      = the amplitude applied to the previous function evaluation
-- f1x     = the frequency applied to the x-component of the previous function evaluation
-- f1y     = the frequency applied to the y-component of the previous function evaluation
+- command   = the command tag itself. Two commands are currently supported -> "wave" and "jitter"
+- :         = the separator between the command tag and parameter fields
+- a0        = the amplitude applied to the updated function evaluation
+- f0x       = the frequency applied to the x-component of the updated function evaluation
+- f0y       = the frequency applied to the y-component of the updated function evaluation
+- a1        = the amplitude applied to the previous function evaluation
+- f1x       = the frequency applied to the x-component of the previous function evaluation
+- f1y       = the frequency applied to the y-component of the previous function evaluation
+- text      = the text string that the animation is applied to
+- \\command = closing token for text animation command
