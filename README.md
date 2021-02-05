@@ -5,7 +5,7 @@ Extends TextMeshPro by adding in text animations. This package works by accessin
 
 On the TMP_Testing component in the Inspector, modify the sentence that you'd like displayed. Standard text and supported TextMeshPro tags are supported. You may also enter custom commands using the following template:
 
-<i><command : a0, f0x, f0y, a1, f1x, f1y> text <\/command><\i>
+<i><command : a0, f0x, f0y, a1, f1x, f1y> text <\/command>
 
 where,
 - command   = the command tag itself. Two commands are currently supported -> "wave" and "jitter"
