@@ -10,6 +10,7 @@ On the TMP_Testing component in the Inspector, modify the sentence that you'd li
 where,
 - command   = the command tag itself. Two commands are currently supported -> "wave" and "jitter"
 - :         = the separator between the command tag and parameter fields
+- ,         = the parameter separator (commas MUST be present - whitespace is not interpreted as a separator)
 - a0        = the amplitude applied to the updated function evaluation
 - f0x       = the frequency applied to the x-component of the updated function evaluation
 - f0y       = the frequency applied to the y-component of the updated function evaluation
