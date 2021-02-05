@@ -17,4 +17,4 @@ where,
 - f1x       = the frequency applied to the x-component of the previous function evaluation
 - f1y       = the frequency applied to the y-component of the previous function evaluation
 - text      = the text string that the animation is applied to
-- \\command = closing token for text animation command
+- \/command = closing token for text animation command
